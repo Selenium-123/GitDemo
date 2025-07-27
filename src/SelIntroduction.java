@@ -15,6 +15,12 @@ public class SelIntroduction {
 		driver.get("https://rahulshettyacademy.com");
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
+		
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
+		
+		System.out.println(driver.getCurrentUrl());
+		System.out.println(driver.getTitle());
 		//to close original window invoked by chrome driver in the browser
 		driver.close();
 	}

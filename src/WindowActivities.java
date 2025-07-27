@@ -14,6 +14,9 @@ public class WindowActivities {
 		driver.navigate().to("https://rahulshettyacademy.com");
 		driver.navigate().back();
 		driver.navigate().forward();
+		
+		driver.navigate().back();
+		driver.navigate().forward();
 		driver.close();
 	}
 
